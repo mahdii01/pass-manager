@@ -1,0 +1,80 @@
+.leftside{
+    /* margin-left: 1rem; */
+    position: relative;
+    border-right: 2px solid #000;   
+}
+.leftsideWrapper{
+    
+}
+.leftsideSearch{
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.leftsideSearchbar{
+    border: none;
+    outline: none;
+    color: #7a7a7a;
+    background-color: #404040;
+    border-radius: .6rem;
+    padding: .1rem 3rem;
+    width: 80%;
+    font-size: 1.7rem;
+}
+.leftsideSearchIcon{
+    color: #7a7a7a;
+    position: absolute;
+    left: .7rem;
+    top: .7rem;
+    font-size: 1.8rem !important;
+}
+.leftsideAddIcon{
+    font-size: 2.7rem !important;
+    color: #fff;
+    margin-left: 1.5rem;
+    background-color: #175ddc;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.leftsideServiceList{
+    margin-top: 3rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 57.8rem;
+}
+.leftsideServiceList::-webkit-scrollbar{
+    display: none;
+}
+.leftSideServiceItem{
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.leftSideServiceItem:last-child{
+    margin-bottom: 0;
+}
+.active{
+    background-color: #175ddc;
+    border-radius: .8rem;
+}
+.leftsideServicePic{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+}
+.leftSideServiceDesc{
+    margin-left: 1.5rem;
+}
+.leftSideServiceTitle{
+    color: #fff;
+    font-weight: bold;
+}
+.leftSideServiceEmail{
+    color: #8f8f8f;
+    font-size: 1.4rem;
+    font-weight: 300;
+}

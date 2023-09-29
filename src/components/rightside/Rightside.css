@@ -1,0 +1,115 @@
+.rightside {
+  /* background-color: #fff; */
+  height: 100%;
+  
+}
+.rightsideWrapper {
+  
+}
+.rightsideTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightsideEdit,
+.rightsideDelete {
+  background-color: #292929;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 2rem 2rem;
+  cursor: pointer;
+}
+.rightsideEditIcon,
+.rightsideDeleteIcon {
+  margin-left: 0.5rem;
+  font-size: 1.7rem !important;
+}
+
+.rightsideHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #353535;
+    padding: 2.5rem 0;
+    /* width: 58rem; */
+}
+.rightsideServicePic {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 1rem;
+}
+.rightsideService {
+    margin-left: 2rem;
+}
+.rightsideServiceTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.rightsideServiceLogin {
+    color: #8f8f8f;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.rightsideInfo {
+    margin-top: 3rem;
+}
+.rightsideInfo > label {
+    color: #8f8f8f;
+}
+.rightsideUsernameInput,.rightsidePassInput{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.rightsidePassInput{
+   
+}
+.rightsideWebsite {
+    color: #fff;
+}
+.rightsideInfoInput{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0.8rem;
+    position: relative;
+}
+.rightsideInfoIcon{
+    color: #9e9e9e;
+    position: absolute;
+    right: 1rem;
+    bottom: 3rem;
+    font-size: 2rem !important;
+    cursor: pointer;
+}
+.rightsideInfoInput:nth-child(2){
+    background: #292929;
+    border-radius: 1rem;
+}
+.rightsideInfoInput > label{
+    color: #8f8f8f;
+}
+.rightsideDesc{
+    padding: 1.5rem 0.8rem;
+}
+.rightsideDescTitle{
+    color: #8f8f8f;
+}
+.rightsideDescText{
+    color: #fff;
+
+}
+.rightsideDesc > div {
+    height: 14.7rem;
+    display: block;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.rightsideDesc > div::-webkit-scrollbar{
+    display: none;
+}
